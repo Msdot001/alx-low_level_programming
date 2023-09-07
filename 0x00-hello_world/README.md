@@ -4,3 +4,5 @@ This directory contains tasks that demonstrate how to run a C file through the G
 
 1. This code initializes a variable that store the filename of the C source file to be compiled without
 linking. It output the same filename with .o extension.
+
+2. This code initializes a variable that store the filename of the C source file to be assembled. 
