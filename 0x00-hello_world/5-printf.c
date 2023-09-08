@@ -1,10 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - Printf function
  *
- * Description - Use of printf function to print output
- * Return 0
+ * Description: Use of printf function to print output
+ * Return:0
  */
 
 int main(void)
