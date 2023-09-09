@@ -10,7 +10,8 @@
 int main(void)
 {
 	char ch = 'a';
-	int n = 0;	
+	int n = 0;
+        /* your code goes there */
 	while (n < 26)
 	{
 		putchar(ch);
@@ -18,5 +19,5 @@ int main(void)
 		n++;
 	}
 	putchar('\n');
-	return (0)
+	return (0);
 }
