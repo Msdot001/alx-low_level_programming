@@ -1,17 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
-
+#include <stdlib.h
 /**
 *main - Entry point
 *
 *Return: 0 Always (Sucess)
 */
-
 int main(void)
 {
 	char ch = 'a';
-	int n = 0;
-	
+	int n = 0;	
 	while (n < 26)
 	{
 		putchar(ch);
@@ -20,4 +17,5 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
+
