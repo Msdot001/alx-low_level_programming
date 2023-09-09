@@ -11,14 +11,13 @@ int main(void)
 {
 	char ch = 'a';
 	int n = 0;
-
+	
 	while (n < 26)
 	{
 		putchar(ch);
 		ch++;
 		n++;
 	}
-
 	putchar('\n');
 	return (0);
 }	
