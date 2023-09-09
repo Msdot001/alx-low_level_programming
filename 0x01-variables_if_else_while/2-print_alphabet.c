@@ -10,11 +10,13 @@
 int main(void)
 {
 	char ch = "a";
+	int n =0;
 
-	while (ch <= "z")
+	while (n < 26)
 	{
 		putchar(ch);
 		ch++;
+		n+
 	}
 
 	putchar("\n");
