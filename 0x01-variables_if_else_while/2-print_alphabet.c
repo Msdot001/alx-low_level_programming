@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
-*main - Entry point
-*
-*Return: 0 Always (Sucess)
+ * main - Entry point
+ *
+ * Return: 0 Always (Sucess)
 */
 
 int main(void)
@@ -18,6 +18,5 @@ int main(void)
 		n++;
 	}
 	putchar('\n');
-	return (0);
+	return (0)
 }
-
