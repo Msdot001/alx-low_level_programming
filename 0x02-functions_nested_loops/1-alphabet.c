@@ -2,6 +2,8 @@
 /**
  * main - print lower alphabet
  *
+ * Description: It prints the lowercase alphabet from 'a' to 'z'
+ *              using a loop and the putchar function.
  * Return: Always 0.
  */
 void print_alphabet(void)
