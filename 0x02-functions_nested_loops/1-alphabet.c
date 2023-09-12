@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - print lower alphabet
+ * main - Entry point:
  *
- * print_alphabet - t prints the lowercase alphabet from 'a' to 'z'
+ * print_alphabet -  prints the lowercase alphabet from 'a' to 'z'
  *              using a loop and the putchar function.
  * Return: Always 0.
  */
