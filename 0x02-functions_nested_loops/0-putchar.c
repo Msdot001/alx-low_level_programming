@@ -1,8 +1,9 @@
 #include "main.h"
 
-/** main - Putchar functions
+/**
+ * main - Putchar functions
  *
- * Return: Always 1 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
