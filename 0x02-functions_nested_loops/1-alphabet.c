@@ -2,12 +2,10 @@
 /**
  * main - Entry point:
  *
- * print_alphabet -  prints the lowercase alphabet from 'a' to 'z'
- *              using a loop and the putchar function.
- * Return: Always 0.
+ * Description:  prints lowercase alphabet
+ * Return: Always void.
  */
 void print_alphabet(void)
-/* print_alphabet -  prints the lowercase alphabet */
 {
 	char ch;
 
