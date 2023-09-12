@@ -4,4 +4,7 @@
 /* for _putchar function */
 int _putchar(char);
 
+/* other function */
+void print_alphabet(void);
+
 #endif
