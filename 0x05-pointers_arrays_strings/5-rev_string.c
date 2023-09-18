@@ -1,23 +1,25 @@
 #include "main.h"
-
 /**
- * rev_string - to reverses a string
+ * rev_string - returns the length of a string.
+ * @s: array with the characters of the word
+ * Return: Always 0.
  */
-
 void rev_string(char *s)
 {
-	int len = 0;
-	int i;
+	int len, i, half;
+	char temp;
 
-	while ( s[len] != '\0')
+	for (len = 0; s[len] != '\0'; len++)
+	;
+	i = 0;
+
+	half = len / 2;
+
+	while (half--)
 	{
-		len++;
+		temp = s[len - i - 1];
+		s[len - i - 1] = s[i];
+		s[i] = temp;
+		i++;
 	}
-
-	for (i = len - 1; i >= 0; i--)
-	{
-		printf("%c", s[i]);
-	}
-
-	printf("\n");
 }
