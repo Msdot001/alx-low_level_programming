@@ -2,7 +2,7 @@
 
 /**
  * string_toupper - capitalise a string
- * @s: pointer to the string to be capitalised
+ * @a: pointer to the string to be capitalised
  * Return: pointer to the capitalised string
  */
 
