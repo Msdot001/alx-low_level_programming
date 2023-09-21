@@ -4,7 +4,8 @@
  * _strncat - to concatenates two strings
  * @dest: pointer intended to append the text
  * @src: array with the source str
- * Return: concatenate str
+ * @n: num of bytes
+ * Return: Always 0
  */
 
 char *_strncat(char *dest, char *src, int n)
