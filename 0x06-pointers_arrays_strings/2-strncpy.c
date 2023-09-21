@@ -1,13 +1,11 @@
 #include "main.h"
-
 /**
- * _strncpy - to copies the string
- * @dest: pointer where the text is append
- * @src: array with the string
- * @n: num of bytes to append
- * Return: Always 0
- */
-
+* _strncpy - to copies the string
+* @dest: pointer where the text is append
+* @src: array with the string
+* @n: num of bytes to append
+* Return: Always 0
+*/
 char * _strncpy(char *dest, char *src, int n)
 {
 	int i;
