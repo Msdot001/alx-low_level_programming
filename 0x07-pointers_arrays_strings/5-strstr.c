@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strstr -  locates a substring.
+ * *_strstr -  locates a substring.
  * @haystack: pointer to string.
  * @needle: pointer to string.
  * Return: pointer or Null.
