@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strstr -  locates a substring
- * @haystack: pointer to string
- * @needle: pointer to string
- * Return: pointer or Null
+ * _strstr -  locates a substring.
+ * @haystack: pointer to string.
+ * @needle: pointer to string.
+ * Return: pointer or Null.
  */
 
 char *_strstr(char *haystack, char *needle)
