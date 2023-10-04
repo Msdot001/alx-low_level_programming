@@ -18,7 +18,7 @@ char *create_array(unsigned int size, char c)
 	}
 
 	/* Allocate memory for the specific cher*/
-	
+
 	arr = malloc(size * sizeof(char));
 
 	if (arr == NULL)
